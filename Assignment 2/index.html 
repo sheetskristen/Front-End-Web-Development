@@ -1,0 +1,27 @@
+<!doctype html> 
+<html lang="en"> 
+<head>
+	<title>Second Assignment</title>
+	<link href="style.css" rel="stylesheet">
+	<link href="style2.css" rel="stylesheet">
+</head> 
+<body>
+	<h1>This is Kristen's Second Assignment</h1>
+		<p class="style_one">Here's a link to
+		<a href=http://www.dismagazine.com/>my favorite website<a>. Check out this 
+		<a href=about.html>about</a> section.</p>
+		
+		<p class="style_two">Here's a link to
+		<a href=http://www.dismagazine.com/>my favorite website<a>. Check out this 
+		<a href=about.html>about</a> section.</p>
+		
+		<p class="style_one">Here's a link to
+		<a class="style_two" href=http://www.dismagazine.com/>my favorite website<a>. Check out this 
+		<a href=about.html>about</a> section.</p>
+		
+		<p class="style_one style_two">Here's a link to
+		<a href=http://www.dismagazine.com/>my favorite website<a>. Check out this 
+		<a href=about.html>about</a> section.</p>
+	<script src="script.js"></script>
+</body>
+</html>

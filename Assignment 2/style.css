@@ -1,0 +1,30 @@
+
+body {
+	background-color: #40FFFF;
+	color: pink;
+	font-family: "Monaco", monospace;
+	
+} 
+
+.style_one {
+	color: green;
+}
+
+.style_two {
+	background: grey;
+	color: red;
+	margin-bottom: 5em;
+	padding: 20px;
+} 
+
+.style_one .style_two {
+	color: yellow;
+}
+
+.style_one.style_two {
+	color: blue;
+}
+
+.style_one, .style_one.style_two {
+	display: inline;
+}

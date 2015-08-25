@@ -1,0 +1,60 @@
+<!doctype html> 
+<!hypertext has been around for a long time>
+<!doctype declaration - tells the browser what kind of document it's reading> 
+<!special kind of comment tag - does not need to be closed, not part of the structure>
+<html> 
+<!tags, id'd by angle brackets - tags come in pairs -pairs = an element> 
+<!html tags are ALWAYS center-embedded, indenting code is good practice>
+<!the html element always has two child elements - head and body>
+	<head>
+	<!the head is all about metadata, info abt the site - page title, what other files>
+	<!need to be loaded, etc. it doesn't directly affect the page>
+		<title>My AWESOME Website</title>
+		<link href="style.css" rel="stylesheet">
+		<!it's good practice to link the stylesheet in the head>
+		<!link is a void element - no text content, no closing link tabs>
+		<!link tags set up a relation w external docs, do not confuse with anchor tags>
+		<!rel stands for relation, how is the file related, here = stylesheet>
+	</head>  
+  	<body>
+  	<!the body is the actual physical display of the page>
+  	<h1>My Awesome Website</h1>
+  	<h2>It's great</h2>
+  	<!heading elements - there are 6 of these elements, each decending in importance>
+  	<!html is a whitespace insensitive language> 
+  		<p>
+  			Hello and welcome to my site. 
+  			<a href= "http://www.google.com">
+  			This is another Site
+  			</a> 
+  			<!this is an 'a' tag or an anchor tag; attribute href = hypertext reference,
+  			 refers>
+  			<!to something else, somewhere else – you need http://, if you don't add 
+  			<!this you have a valid name for any file, you don't change directories>
+  			<!specifing the protocal, http:// you explicitly change directories>
+  		
+  		</p>
+  		<p>
+  		You can write as much as you want.
+  		</p>
+  		<ul>
+  		<!ul stands for unordered list>
+  		<!you can't put a list in an p>
+  			<li>Here's some text</li>
+  			<li>Here's some text</li>
+  			<li>Here's some text</li>
+  			<!li stands for list item> 
+  		</ul>
+  		<ol type="i">
+  		<!ol stands for ordered list, the type attribute changes the kind of ordering> 
+  			<li>Here's some text</li>
+  			<li>Here's some text</li>
+  			<li>Here's some text</li>
+  		</ol> 
+  		<script src="script.js"></script>
+  		
+  		<!if you run a script before the site loads, your site will be pretty slow> 
+  		<!it doesn't make sense for the script to interact with the page to run>
+  		<!before the page loads>
+  	</body>
+</html>	

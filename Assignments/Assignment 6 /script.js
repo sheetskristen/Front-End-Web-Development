@@ -11,7 +11,7 @@ var newField = $('.new-field');
 	newToDo.text(newItem);
 	
 	(toDoList).append(newToDo);
-	
+	newField
 
 	
 });

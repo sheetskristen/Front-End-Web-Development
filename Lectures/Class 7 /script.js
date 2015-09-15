@@ -7,7 +7,35 @@ $('.tweetbox').on('submit', function (event) {
 
   var newTweet = $('.tweet').first().clone();
 
-  var textAreaValue = tweetboxField.val();
+  var textAreaValue = tweetboxFieldLectures:
+	Class 1:
+		index.html
+		script.js
+		style.css
+	Class 2:
+		Jeff's Class 1 Materials Revisited:
+			index.html
+			script.js
+			style.css
+	Class 4:
+		index.html
+		script.js
+	Class 5:
+		index.html
+		script.js
+	Class 6 :
+		avatar.jpg
+		index.html
+		jquery.js
+		script.js
+		style.css
+	Class 7 :
+		avatar.jpg
+		index.html
+		jquery.js
+		script.js
+		style.css
+.val();
 
   newTweet.find('.tweet__content').text(textAreaValue);
   newTweet.find('.tweet__time').text('now');
